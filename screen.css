@@ -1,0 +1,67 @@
+body {
+    font-family: helvetica, sans-serif;
+    color: #404040;
+    background-color: #e0e0e0;
+    text-shadow: 0 1px white;
+    margin: 0;
+}
+
+svg {
+    shape-rendering: crispEdges;
+    font-size: 0.8em;
+}
+
+header, footer { padding: 1em; }
+
+header { font-size: 1.2em; }
+
+footer {
+    clear: both;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+header * {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+#title { margin-left: 0.2em; }
+
+#query, header a {
+    border: 1px solid #a0a0a0;
+    padding: 0.2em;
+    font-size: 1em;
+    border-radius: 2px;
+}
+
+header a {
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+}
+
+header a:hover {
+    color: white;
+    background-color: steelBlue;
+    text-shadow: 0 1px black;
+}
+
+header a:active { background-color: rgba(70, 130, 180, 0.8); }
+
+.chart {
+    float: left;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    -webkit-border-radius: 6px;
+    margin: 0 1em 1.5em 1em;
+    background-color: white;
+}
+
+.chart h3 { margin: 0.5em; }
+
+.loading {
+    background-image: url('/spinner.gif');
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
